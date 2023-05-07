@@ -67,7 +67,6 @@ public class Controladores {
         });
         return ResponseEntity.ok(clientesConFechasDeMuerte);
     }
-
 }
 
 

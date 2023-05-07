@@ -47,6 +47,7 @@ public class Cliente {
         this.fechaMuerte = cliente.getFechaMuerte();
     }
 
+
     public void setFechaMuerte(LocalDate fechaMuerte) {
         this.fechaMuerte = fechaMuerte;
     }
@@ -63,6 +64,4 @@ public class Cliente {
                 ", Fecha_de_nacimiento=" + fechaNacimiento +
                 '}';
     }
-
-/**/
 }
